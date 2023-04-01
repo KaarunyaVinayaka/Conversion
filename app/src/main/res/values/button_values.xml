@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="button">
+        <attr name="command" format="string"/>
+        <attr name="conversion" format="string"/>
+    </declare-styleable>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@color/orange</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+</resources>
